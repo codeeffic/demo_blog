@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
+          # This line mounts Blogging's routes at /blogs by default.
+          # This means, any requests to the /blogs URL of your application will go to Blogging::WelcomeController#index.
+          # If you would like to change where this extension is mounted, simply change the :at option to something different.
+          #
+          # We ask that you don't use the :as option here, as Blogging relies on it being the default of "blog"
+          mount Blogging::Engine, :at => '/'
+          devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

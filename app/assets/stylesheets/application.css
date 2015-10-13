@@ -10,6 +10,19 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require font-awesome
  *= require_tree .
  *= require_self
  */
+
+body {
+    background: #F1F4F7;
+}
+
+ .signin_in_up_form {
+     position: absolute;
+     top: calc(50% - 250px);
+     left: calc(50% - 250px);
+     width: 500px;
+     padding: 10px;
+ }

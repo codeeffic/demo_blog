@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+#Blogging::Engine.load_seed
+AdminUser.create!(email: 'admin@blogror.com', password: 'admin@blogror', password_confirmation: 'admin@blogror')
