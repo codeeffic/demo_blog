@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/activeadmin/activeadmin.git
-  revision: 72709dc26fcee5a4c0d26a2f00ba34764a86752a
+  revision: a3fca244b0cbaa6139931952ba2c72dda58e05b1
   specs:
     activeadmin (1.0.0.pre2)
       arbre (~> 1.0, >= 1.0.2)
@@ -149,7 +149,6 @@ GEM
     mini_portile (0.6.2)
     minitest (5.8.1)
     multi_json (1.11.2)
-    mysql2 (0.4.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-sftp (2.1.2)
@@ -254,7 +253,6 @@ DEPENDENCIES
   font-awesome-rails
   jbuilder (~> 2.0)
   jquery-rails
-  mysql2
   pg
   rails (= 4.2.4)
   rvm-capistrano (= 1.2.7)

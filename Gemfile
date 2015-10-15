@@ -5,8 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.4'
 # Use sqlite3 as the database for Active Record
 gem 'pg'
+#gem 'mysql2', '0.3.13'
 gem 'devise'
-gem 'mysql2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -24,7 +24,6 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'devise'
 gem 'blogging', :github => "codeeffic/blogror"
 gem "font-awesome-rails"
 gem 'activeadmin', github: 'activeadmin'
