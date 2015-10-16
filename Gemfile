@@ -26,6 +26,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'blogging', :github => "codeeffic/blogror"
+#gem 'blogging', :path => '/home/nazrul/Development/Projects/blogging'
 gem "font-awesome-rails"
 gem 'activeadmin', github: 'activeadmin'
 
@@ -41,8 +42,10 @@ gem 'activeadmin', github: 'activeadmin'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'capistrano', '2.14.1'
-  gem 'rvm-capistrano', '1.2.7' , :require => false
+  gem 'capistrano', '~> 3.1.0'
+  gem 'capistrano-rails', '~> 1.1.0'
+  gem 'capistrano-rvm'
+  gem 'capistrano-bundler'
 end
 
 group :development do
