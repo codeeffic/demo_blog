@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: git://github.com/codeeffic/blogror.git
-  revision: e21cd95f95c5b862d60bad1f14335b0770d12026
+  revision: 55c78026d6dc02475e6ba9da3a39f5df72002b2c
   specs:
     blogging (0.0.2)
       acts-as-taggable-on
